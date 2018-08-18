@@ -50,6 +50,7 @@
     
     if (!url.host.length) {
         scriptCallback(nil);
+        return;
     }
     
     //静态cookie串或者从接口中获取拼接
